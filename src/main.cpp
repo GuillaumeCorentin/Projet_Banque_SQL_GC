@@ -428,13 +428,13 @@ int main()
                             if (NumeroCompte == CompteGuillaume1.recup_num_Compte())
                             {
                                 ComptePereira1.Debiter(montant);
-                                CompteSungur1.Crediiter(montant);
+                                CompteGuillaume1.Crediiter(montant);
                                 cout << "Vous avez transféré " << montant << " euros à " << Guillaume.recup_nom() << " " << Guillaume.recup_prenom() << endl;
                             }
-                            if (NumeroCompte == ComptePereira1.recup_num_Compte())
+                            if (NumeroCompte == CompteSungur1.recup_num_Compte())
                             {
                                 ComptePereira1.Debiter(montant);
-                                ComptePereira1.Crediiter(montant);
+                                CompteSungur1.Crediiter(montant);
                                 cout << "Vous avez transféré " << montant << " euros à " << Sungur.recup_nom() << " " << Sungur.recup_prenom() << endl;
                             }
                             if(NumeroCompte != CompteSungur1.recup_num_Compte() && NumeroCompte != CompteGuillaume1.recup_num_Compte())
