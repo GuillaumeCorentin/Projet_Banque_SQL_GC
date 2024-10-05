@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "/usr/include/cppconn",       // Pour les fichiers d'en-tête MySQL Connector/C++
+                "/usr/include"                // Chemin général des headers sur le système
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",  // Chemin vers ton compilateur g++
+            "cStandard": "c11",
+            "cppStandard": "c++17",          // Version C++ utilisée (ici, C++17)
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

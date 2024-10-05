@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I", "${workspaceFolder}/include", // chemin des headers
+                "-L", "${workspaceFolder}/lib",     // chemin des bibliothèques
+                "-lmysqlcppconn",                   // bibliothèque à lier
+                "${workspaceFolder}/src/main.cpp",  // fichier source
+                "-o", "${workspaceFolder}/build/main" // fichier de sortie
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile using g++"
+        }
+    ]
+}
