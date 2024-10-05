@@ -13,11 +13,11 @@ Afin de gérer son compte l'utilisateur doit se connecter a l'aide de son numero
 
 Si les infomations sont correcte, l'utilisateur auras la possibilité de:
 
-    -Créditer son compte (faire un dépôt)
-    -Débiter son compte (faire un retrait)
-    -Effectuer un virement à un autre client de la banque
-    -Commander un chéquier
-    -Récurérer son RIB
+-Créditer son compte (faire un dépôt)
+-Débiter son compte (faire un retrait)
+-Effectuer un virement à un autre client de la banque
+-Commander un chéquier
+-Récurérer son RIB
 
 Commande pour compiler les programmes si le dossier le dossier complet a été ouvert
 
